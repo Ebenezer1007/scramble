@@ -1,0 +1,154 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: ubuntu;
+    color: rgb(241, 238, 238);
+    background: linear-gradient(-45deg, rgb(219, 129, 129), green, rgb(110, 110, 210), rgb(46, 181, 78));
+}
+
+.container {
+    text-align: center;
+    font-size: 36px;
+    padding: 5rem;
+    margin: 0 auto;
+     background-size: 400% 400%; 
+     width: 80%;
+    height: 100vh;
+    justify-items: center;
+   
+    
+  }
+
+  h1 {
+    padding: 5px;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+
+  .counter {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .counter p {
+    font-size: 36px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1rem;
+  }
+
+  .scramble_word {
+    font-size: 100px;
+    padding: 0.5em;
+    margin: 0.5rem;
+  }
+
+  .input_form {
+    padding: 1em;
+    width: 50%;
+    border-radius: 12px;
+    border: 5px solid rgb(255, 161, 68);
+    background-color: #ffffff30;
+    font-size: 36px;
+    color:#fff;
+    
+  }
+
+  .pass_btn {
+    margin: 5em;
+    padding: 1em;
+    width: 28%;
+    border-radius: 6em;
+    color: #fff;
+    background-color: rgb(56, 187, 16);
+    border: none;
+    font-size: 28px;
+  }
+
+  .play_btn {
+    margin: 1em;
+    padding: 1em;
+    width: 28%;
+    border-radius: 6em;
+    color: #fff;
+    background-color: rgb(248, 110, 47);
+    border: none;
+    font-size: 28px;
+  }
+
+  /* .points {
+    display: flex;
+  }
+
+  .strikes {
+    display: flex;
+    
+  } */
+
+  /* p {
+    border: 1px solid black;
+    padding: 5px;
+    width: 200px;
+    
+  } */
+
+
+/* html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    font-size: 36px;
+    padding: 1rem;
+    background: linear-gradient(to bottom, #ff0002 0%, #00ff00 50%, #0000ff 100%);
+  }
+  
+  .gallery {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
+    padding: 1rem;
+  }
+  
+  .gallery-item {
+    position: relative;
+    display: grid;
+  
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .gallery-item.caught::after {
+    content: "caught!";
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  
+    width: 100%;
+    height: 100%;
+  
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .gallery-item img {
+    justify-self: center;
+  }
+  
+  .gallery-item h2 {
+    background-color: #ccc;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem;
+  } */
